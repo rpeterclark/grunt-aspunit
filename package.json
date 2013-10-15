@@ -1,0 +1,44 @@
+{
+	"name": "grunt-aspunit",
+    "description": "Run ASPUnit unit tests in a headless PhantomJS instance.",
+	"version": "0.1.0",
+	"homepage": "https://github.com/rpeterclark/grunt-aspunit",
+	"author": {
+		"name": "R. Peter Clark",
+		"email": "rpeterclark@gmail.com",
+		"url": "http://www.rpeterclark.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/rpeterclark/grunt-aspunit.git"
+	},
+	"bugs": {
+		"url": "https://github.com/rpeterclark/grunt-aspunit/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/rpeterclark/grunt-aspunit/blob/master/LICENSE-MIT"
+		}
+	],
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.6.4",
+        "grunt-contrib-nodeunit": "~0.2.1"
+    },
+	"dependencies": {
+		"grunt-lib-phantomjs": "~0.4.0"
+	},
+    "peerDependencies": {
+        "grunt": "~0.4.1"
+    },
+    "keywords": [
+        "gruntplugin"
+    ]
+}

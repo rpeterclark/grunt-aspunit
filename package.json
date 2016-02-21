@@ -1,6 +1,6 @@
 {
 	"name": "grunt-aspunit",
-    "description": "Run ASPUnit unit tests in a headless PhantomJS instance.",
+	"description": "Run ASPUnit unit tests in a headless PhantomJS instance.",
 	"version": "0.1.0",
 	"homepage": "https://github.com/rpeterclark/grunt-aspunit",
 	"author": {
@@ -27,18 +27,18 @@
 	"scripts": {
 		"test": "grunt test"
 	},
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.6.4",
-        "grunt-contrib-nodeunit": "~0.2.1"
-    },
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.6.4",
+		"grunt-contrib-nodeunit": "~0.2.1"
+	},
 	"dependencies": {
 		"grunt-lib-phantomjs": "~0.4.0"
 	},
-    "peerDependencies": {
-        "grunt": "~0.4.1"
-    },
-    "keywords": [
-        "gruntplugin"
-    ]
+	"peerDependencies": {
+		"grunt": ">=0.4.0"
+	},
+	"keywords": [
+		"gruntplugin"
+	]
 }
